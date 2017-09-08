@@ -29,18 +29,18 @@
 <!-- End Google Tag Manager -->
 <div class="header">
     <div class="logo">
-        <a href="http://annashvedova.ru/">
-            <img src="/images/ash.png" alt="">
-        </a>
+        <!--a href="http://annashvedova.ru/"-->
+            <img src="/images/ASh.svg" alt="Logo">
+        <!--/a-->
     </div>
     <div class="name">
         <a href="http://annashvedova.ru/">
-            <img src="/images/HEAD_RU_LINE_1.svg" alt="">
+            <img src="/images/HEAD_RU_LINE_1.svg" alt="Title">
         </a>
     </div>
 </div><!--Конец шапки-->
 <div class="contents">
-    <center><img alt="" src="/images/IMG_328711.jpg" style="width: 100%;" /></center>
+    <img alt="Photo" src="/images/IMG_328711.jpg" />
 </div><!--Конец контента-->
 <div class="footer">
     <?php

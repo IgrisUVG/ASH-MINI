@@ -36,6 +36,11 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -48,30 +53,28 @@ html {
 }
 
 body {
-    width: 80%;
-    max-width: 1280px;
-    min-width: 1260px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 600px;
     color: #333;
 }
 
 .header {
     margin: 0 auto;
-    padding-left: 20px;
+    padding: 0.2em;
 }
 
 .logo, .name {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: bottom;
 }
 
 .logo {
-    padding: 5px 0 0 5px;
+    width: 3em;
+    height: auto;
+    /*padding: 5px 0 0 5px;*/
 }
 
 .name {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     width: 85%;
     height: 50%;
 }
@@ -93,37 +96,41 @@ body {
 }
 
 .contents {
-    margin: -110px auto 30px;
-    width: 50.3%; /* 635px оптимальный минимум для флеша*/
+    margin: 0 auto;
+    padding: 1.5em 1em 0;
+    /*width: 50.3%; !* 635px оптимальный минимум для флеша*!*/
 }
 
 .infotext p {
-    font-family: Georgia, 'Times New Roman', 'MS SANS SERIF', TAHOMA, VERDANA, ARIAL, sans-serif;
+    font-family: Georgia, 'Times New Roman', serif;
     text-align: justify;
     text-indent: 1em;
-    font-size: 18px;
+    font-size: 1.2em;
 }
 
 .footer {
-    position: fixed;
-    left: 8%;
-    right: 10%;
-    bottom: 0;
-    clear: both;
-    padding-bottom: 5px;
-/ / height: 25 px;
+    /*position: fixed;*/
+    /*left: 8%;*/
+    /*right: 10%;*/
+    /*bottom: 0;*/
+    /*clear: both;*/
+    /*padding-bottom: 5px;*/
 }
-
+.copyphone{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
 .copy, .phone {
     display: inline-block;
     font-size: 75%;
-    padding: 0 10px;
+    /*padding: 0 10px;*/
 }
 
 .copy a {
     display: block;
     padding: 0 10px;
-    margin: 3px 0;
+    /*margin: 3px 0;*/
     text-decoration: none;
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-variant: small-caps;
@@ -141,7 +148,10 @@ body {
 }
 
 .social {
-    float: right;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 0.5em;
 }
 
 #container {
@@ -154,7 +164,6 @@ body {
     vertical-align: bottom;
     width: 24px;
     height: 24px;
-/ / margin: 0 20 px 0 px 0;
     padding: 0;
     outline: none;
     background: url(../images/icons.png) -144px 0 no-repeat;
@@ -165,7 +174,6 @@ body {
     vertical-align: bottom;
     width: 24px;
     height: 24px;
-/ / margin: 0 20 px 0 px 0;
     padding: 0;
     outline: none;
     background: url(../images/icons.png) -0px 0 no-repeat;
@@ -176,7 +184,6 @@ body {
     vertical-align: bottom;
     width: 24px;
     height: 24px;
-/ / margin: 0 20 px 0 px 0;
     padding: 0;
     outline: none;
     background: url(../images/icons.png) -48px 0 no-repeat
