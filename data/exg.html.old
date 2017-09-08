@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>ТВОРЧЕСКАЯ ЛАБОРАТОРИЯ</title>
+		<style>
+			body,html {
+			margin-top:40px;
+			}
+		</style>
+	</head>
+	<body>
+		<center>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/j45RB9vDmPA" frameborder="0" allowfullscreen></iframe>
+	</body>
+</html>

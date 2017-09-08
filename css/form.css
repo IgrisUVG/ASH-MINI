@@ -1,0 +1,62 @@
+/* Форма */
+.mailto {
+	margin: 50px 20% 0 0;
+}
+.subform {
+}
+.subform input[type="text"], .subform textarea {
+	margin-top: 2px;
+	width: 100%;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #3f3f3f;
+	border: #dfdfdf solid .5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+.subform textarea {
+	height: 10em;
+	resize: none;
+}
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+.subform input[type="text"]:focus, .subform textarea:focus {
+}
+.button {
+	margin: 5px 10px 0 10px;
+}
+.subform input[type="submit"] {
+	float: left;
+}
+.subform input[type="reset"] {
+	float: right;
+}
+.subform input[type="submit"],
+.subform input[type="reset"] {
+	padding: 8px 15px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	line-height: .2;
+	border: #dfdfdf solid .5px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 23px;
+	-o-border-radius: 23px;
+	border-radius: 23px;
+	background-color: transparent;
+	-webkit-transition: background-color 0.5s ease-out;
+	-moz-transition: background-color 0.5s ease-out;
+	-o-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+  color: #3f3f3f;
+}
+.subform input[type="submit"]:hover,
+.subform input[type="reset"]:hover {
+	border: none;
+  background-color: #3f3f3f;
+  color: #fff;
+}
