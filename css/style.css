@@ -53,51 +53,23 @@ html {
 }
 
 body {
-    max-width: 600px;
+    /*max-width: 600px;*/
     color: #333;
 }
 
 .header {
+    position: relative;
     margin: 0 auto;
-    padding: 0.2em;
+    padding: 0.2em 0.5em;
 }
 
-.logo, .name {
+.contents {
     display: inline-block;
-    vertical-align: bottom;
-}
-
-.logo {
-    width: 3em;
-    height: auto;
-    /*padding: 5px 0 0 5px;*/
-}
-
-.name {
-    /*margin: 0 auto;*/
-    width: 85%;
-    height: 50%;
-}
-
-.left, .right, .contents {
-    display: inline-block;
-}
-
-.left {
-    float: left;
-    width: 24%;
-    margin: 50px 10px 0 0;
-}
-
-.right {
-    float: right;
-    width: 24%;
-    margin: 50px 0 0 10px;
 }
 
 .contents {
     margin: 0 auto;
-    padding: 1.5em 1em 0;
+    padding: 0.5em 1em 0;
     /*width: 50.3%; !* 635px оптимальный минимум для флеша*!*/
 }
 
@@ -108,19 +80,12 @@ body {
     font-size: 1.2em;
 }
 
-.footer {
-    /*position: fixed;*/
-    /*left: 8%;*/
-    /*right: 10%;*/
-    /*bottom: 0;*/
-    /*clear: both;*/
-    /*padding-bottom: 5px;*/
-}
-.copyphone{
+.copyphone {
     position: fixed;
     left: 0;
     bottom: 0;
 }
+
 .copy, .phone {
     display: inline-block;
     font-size: 75%;
