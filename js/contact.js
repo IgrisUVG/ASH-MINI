@@ -10,7 +10,7 @@
 					// create a modal dialog with the data
 					$(data).modal({
 						closeHTML: "<a href='#' title='Close' class='modal-close'>x</a>",
-						position: ["20%",],
+						position: ["5%",],
 						overlayId: 'contact-overlay',
 						containerId: 'contact-container',
 						onOpen: contact.open,
