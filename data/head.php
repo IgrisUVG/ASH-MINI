@@ -6,7 +6,9 @@
 <META NAME="DESCRIPTION" CONTENT="Творческая лаборатория Анны Шведовой. Картины, графика, и дизайн.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ТВОРЧЕСКАЯ ЛАБОРАТОРИЯ</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script type="text/javascript" src="js/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
 <!--script type="text/javascript" src="js/menu.js"></script-->
 <!--<script type="text/javascript" src="js/menuFull.js"></script>-->
@@ -15,7 +17,7 @@
 <script src="js/respond.min.js"></script>
 <![endif]-->
 <link rel="icon" href="images/as32.png" type="image/png">
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<!--<link href="css/style.css" rel="stylesheet" type="text/css">-->
 <!--<link href="css/stylesmall.css" rel="stylesheet" media="(max-width:480px)">-->
 <!--<link href="css/menu.css" rel="stylesheet" type="text/css">-->
 <!--<link href="form.css" rel="stylesheet" type="text/css">-->

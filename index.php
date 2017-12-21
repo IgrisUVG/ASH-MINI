@@ -27,17 +27,19 @@
     (window, document, 'script', 'dataLayer', 'GTM-M7S4WT');
 </script>
 <!-- End Google Tag Manager -->
-<div class="header">
+<div class="container-fluid">
+    <div class="header">
         <img src="/images/AShFull.svg" alt="Logo">
-</div><!--Конец шапки-->
-<div class="contents">
-    <img alt="Photo" src="/images/IMG_328711.jpg"/>
-</div><!--Конец контента-->
-<div class="footer">
-    <?php
-    require('data/footer.php');
-    ?>
-</div><!--Конец футера-->
+    </div><!--Конец шапки-->
+    <div class="contents">
+        <img class="img-responsive" alt="Photo" src="/images/IMG_328711.jpg"/>
+    </div><!--Конец контента-->
+    <div class="footer">
+        <?php
+        require('data/footer.php');
+        ?>
+    </div><!--Конец футера-->
+</div>
 <script type='text/javascript' src='/js/jquery.simplemodal.js'></script>
 <script type='text/javascript' src='/js/contact.js'></script>
 </body>
