@@ -29,7 +29,7 @@
 <!-- End Google Tag Manager -->
 <div class="container-fluid">
     <div class="header">
-        <img src="/images/AShFull.svg" alt="Logo">
+        <img class="img-responsive" src="/images/AShFull.svg" alt="Logo">
     </div><!--Конец шапки-->
     <div class="contents">
         <img class="img-responsive" alt="Photo" src="/images/IMG_328711.jpg"/>
